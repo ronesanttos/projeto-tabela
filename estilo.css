@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0,0,0,.8);
+}
+table {
+    background-color: rgba(0,0,0,.4);
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+td {
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color: rgb(228, 219, 219);
+    border-bottom: 1px solid white;
+}
+th {
+    color: rgba(233, 220, 220, 0.4);
+    margin: 10px;
+    padding: 10px;
+}
+caption {
+    padding: 10px;
+    color:rgb(207, 191, 20)
+}
+.libertadores{
+    background-color: blue;
+   
+}
+#prelibertadores {
+    border-left: 1px solid orange;
+}
+#sulamericana {
+    border-left: 1px solid green;
+}
+.rebaixamento {
+    background-color: red;
+}
+tr:hover td {
+    background-color: rgb(15, 127, 225);
+    color: black;
+}
